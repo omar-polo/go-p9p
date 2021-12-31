@@ -1,14 +1,14 @@
 package main
 
 import (
+	"context"
 	"flag"
 	"log"
 	"net"
 	"strings"
 
-	"github.com/docker/go-p9p"
-	"github.com/docker/go-p9p/ufs"
-	"golang.org/x/net/context"
+	"git.omarpolo.com/go-p9p"
+	"git.omarpolo.com/go-p9p/ufs"
 )
 
 var (

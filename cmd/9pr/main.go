@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"context"
 	"flag"
 	"fmt"
 	"io"
@@ -15,9 +16,8 @@ import (
 	"text/tabwriter"
 	"time"
 
+	"git.omarpolo.com/go-p9p"
 	"github.com/chzyer/readline"
-	"github.com/docker/go-p9p"
-	"golang.org/x/net/context"
 )
 
 var addr string

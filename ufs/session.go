@@ -11,7 +11,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/go-p9p"
+	"git.omarpolo.com/go-p9p"
 )
 
 type session struct {
