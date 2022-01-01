@@ -1,4 +1,4 @@
-# p9p
+# p9p [![godocs.io](https://godocs.io/git.omarpolo.com/go-p9p?status.svg)](https://godocs.io/git.omarpolo.com/go-p9p)
 
 A modern, performant 9P library for Go.
 
