@@ -1,10 +1,9 @@
 package p9p
 
 import (
+	"context"
 	"io"
 	"net"
-
-	"context"
 )
 
 type client struct {
